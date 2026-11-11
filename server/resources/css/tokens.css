@@ -1,0 +1,120 @@
+/* Libralith — generated from design-system/tokens.json. Do not edit; run node design-system/build-tokens.mjs */
+
+:root {
+    color-scheme: dark;
+
+    /* Color */
+    --void-000: #06080b;
+    --void-100: #090d12;
+    --void-200: #0c1117;
+    --void-300: #151d25;
+    --line-100: #121920;
+    --line-200: #18212b;
+    --line-strong: #5a6e80;
+    --horizon: #1e3a48;
+    --ink: #dce6ee;
+    --ink-muted: #a9b8c6;
+    --ink-subtle: #8a9bac;
+    --on-seam: #06080b;
+    --seam: #7fe6ff;
+    --vault-music: var(--seam);
+    --vault-podcasts: #ff9d7a;
+    --vault-video: #b9a4ff;
+    --vault-photos: #8ef2b5;
+    --vault-books: #ffc46b;
+    --vault-comics: #ff8ad8;
+    --vault-games: #d6ef6a;
+    --select-music: #0d1a22;
+    --select-podcasts: #171213;
+    --select-video: #130f22;
+    --select-photos: #101817;
+    --select-books: #15120b;
+    --select-comics: #171119;
+    --select-games: #151812;
+
+    /* Font families */
+    --font-display: "Chakra Petch", "Rajdhani", system-ui, sans-serif;
+    --font-sans: "Inter Variable", Inter, system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+    --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;
+
+    /* Type styles */
+    --type-display-xl-family: var(--font-display);
+    --type-display-xl-size: 104px;
+    --type-display-xl-line-height: 0.92;
+    --type-display-xl-weight: 500;
+    --type-display-xl-tracking: 0.02em;
+    --type-display-l-family: var(--font-display);
+    --type-display-l-size: 48px;
+    --type-display-l-line-height: 1;
+    --type-display-l-weight: 500;
+    --type-display-l-tracking: 0.04em;
+    --type-heading-family: var(--font-display);
+    --type-heading-size: 32px;
+    --type-heading-line-height: 1.1;
+    --type-heading-weight: 500;
+    --type-heading-tracking: 0.08em;
+    --type-title-family: var(--font-display);
+    --type-title-size: 20px;
+    --type-title-line-height: 1.3;
+    --type-title-weight: 500;
+    --type-wordmark-family: var(--font-display);
+    --type-wordmark-size: 18px;
+    --type-wordmark-line-height: 1;
+    --type-wordmark-weight: 600;
+    --type-wordmark-tracking: 0.32em;
+    --type-body-l-family: var(--font-sans);
+    --type-body-l-size: 18px;
+    --type-body-l-line-height: 1.6;
+    --type-body-l-weight: 400;
+    --type-body-family: var(--font-sans);
+    --type-body-size: 16px;
+    --type-body-line-height: 1.5;
+    --type-body-weight: 400;
+    --type-body-s-family: var(--font-sans);
+    --type-body-s-size: 14px;
+    --type-body-s-line-height: 1.5;
+    --type-body-s-weight: 400;
+    --type-label-family: var(--font-mono);
+    --type-label-size: 12px;
+    --type-label-line-height: 1.4;
+    --type-label-weight: 400;
+    --type-label-tracking: 0.16em;
+    --type-readout-family: var(--font-mono);
+    --type-readout-size: 13px;
+    --type-readout-line-height: 1.4;
+    --type-readout-weight: 400;
+    --type-reading-family: var(--font-serif);
+    --type-reading-size: 20px;
+    --type-reading-line-height: 1.75;
+    --type-reading-weight: 400;
+
+    /* Spacing */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 72px;
+
+    /* Radius */
+    --radius-none: 0px;
+    --radius-disc: 50%;
+
+    /* Chamfer */
+    --chamfer-s: 10px;
+    --chamfer-m: 14px;
+    --chamfer-l: 32px;
+    --chamfer-xl: 40px;
+
+    /* Stroke */
+    --stroke-hairline: 1px;
+    --stroke-seam: 2px;
+
+    /* Shadow */
+    --glow-seam: 0 0 18px 2px #7fe6ff;
+    --glow-soft: 0 0 10px #7fe6ff;
+    --slab-drop: 0 24px 40px rgba(0, 0, 0, 0.45);
+}
